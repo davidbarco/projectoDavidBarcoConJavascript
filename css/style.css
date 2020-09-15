@@ -1,0 +1,75 @@
+*{
+    margin: 0; padding: 0; box-sizing: border-box;
+}
+#clearFix{
+    float: none;
+    clear: both;
+}
+
+
+body{
+    background: url("../img/foto3.jpg");
+    background-attachment: fixed;
+    
+}
+#global{
+  width: 80%;
+  margin: 0px auto;
+  margin-top: 25px;
+  background: white;
+  padding: 20px;
+  box-shadow: 0px 0px 18px 3px rebeccapurple;
+}
+#logo{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 100%;
+    letter-spacing: 4px;
+    background:#722eb1;
+    color: white;
+    width: 100%;
+    text-transform: uppercase;
+    text-align: center;
+    height: 80px;
+    margin-bottom: 20px;
+    line-height: 80px;
+    float: left;
+}
+#menu{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #333;
+    width: 100%;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    
+    
+}
+
+#menu ul{
+    line-height: 30px;
+    display: flex;
+    
+    
+
+}
+#menu ul li{
+    height: 46px;
+    list-style: none;
+    display: inline-block;
+    transition: all 300ms ;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    border-right: 1px solid gray;
+    
+}
+#menu ul li:hover{
+   background: #722eb1;
+}
+#menu a{
+  display: block;
+  color: white;
+  text-decoration: none;
+  margin: 5px;
+  padding: 5px;
+  
+}
