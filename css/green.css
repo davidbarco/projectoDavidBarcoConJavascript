@@ -1,0 +1,70 @@
+body{
+    background: url("../img/foto2.jpg");
+    
+    
+}
+#logo{
+    background:#1a8844;
+}
+
+#global{
+   
+    box-shadow: 0px 0px 12px 4px rgb(18, 153, 25) ;
+  }
+
+#menu ul li:hover{
+    background: #1a8844;
+    transition: 600ms ease all;
+    box-shadow: 0px 0px 12px 4px rgb(18, 153, 25) ;
+    
+ }
+
+.boton{
+   
+    background: #1a8844 ;
+    color: white;
+    
+    box-shadow: 0px 0px 12px 4px rgb(18, 153, 25) ;
+
+
+} 
+
+.post h2{
+   
+    color:  #1a8844;
+
+}
+h4{
+    
+    color: #1a8844;
+    
+    
+}
+
+#login{
+    box-shadow: 0px 0px 12px 4px rgb(18, 153, 25) ;
+    background-color:rgba(21, 156, 73, 0.562) ;
+    
+    
+}
+label{
+    color: #1a8844;
+    
+    
+   }
+#entrar{
+   
+    
+    background: #1a8844 ;
+    box-shadow: 0px 0px 12px 4px rgb(18, 153, 25) ;
+    
+}   
+
+.form{
+    box-shadow: 0px 0px 12px 4px rgb(18, 153, 25) ;
+    
+}
+footer{
+    background: #1a8844 ;
+    box-shadow: 0px 0px 12px 4px rgb(18, 153, 25) ;
+  }

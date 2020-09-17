@@ -1,0 +1,70 @@
+body{
+    background: url("../img/foto5.jpg");
+    
+    
+}
+#logo{
+    background:#ac1a1a;
+}
+
+#global{
+   
+    box-shadow: 0px 0px 12px 4px rgb(207, 20, 20) ;
+  }
+
+#menu ul li:hover{
+    background: #ac1a1a;
+    transition: 600ms ease all;
+    box-shadow: 0px 0px 12px 4px rgb(207, 20, 20) ;
+    
+ }
+
+.boton{
+   
+    background: #ac1a1a ;
+    color: white;
+    
+    box-shadow: 0px 0px 12px 4px rgb(207, 20, 20) ;
+
+
+} 
+
+.post h2{
+   
+    color:  #ac1a1a;
+
+}
+h4{
+    
+    color: #ac1a1a;
+    
+    
+}
+
+#login{
+    box-shadow: 0px 0px 12px 4px rgb(207, 20, 20) ;
+    background-color:rgba(211, 14, 14, 0.562) ;
+    
+    
+}
+label{
+    color: #ac1a1a;
+    
+    
+   }
+#entrar{
+   
+    
+    background:#ac1a1a ;
+    box-shadow: 0px 0px 12px 4px rgb(207, 20, 20) ;
+    
+}   
+
+.form{
+    box-shadow: 0px 0px 12px 4px rgb(207, 20, 20) ;
+    
+}
+footer{
+    background: #ac1a1a ;
+    box-shadow: 0px 0px 12px 4px rgb(207, 20, 20) ;
+  }
