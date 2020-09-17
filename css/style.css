@@ -31,8 +31,19 @@ body{
     text-align: center;
     height: 80px;
     margin-bottom: 20px;
-    line-height: 80px;
-    float: left;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.proyectosJs{
+    width: 50%
+}
+.NombreL{
+    width: 50%;
+}
+.letraP{
+    width: 100%;
 }
 #menu{
     font-family: Arial, Helvetica, sans-serif;
@@ -166,8 +177,7 @@ body{
 }
 label{
  color: #722eb1;
- 
- 
+
 }
 #entrar{
    
@@ -244,4 +254,61 @@ footer{
     cursor: pointer;
 }
 
+.subir{
+    color: white;
+    text-decoration: none;
+    
+    display: block;
+    float: right;
+}
+#nombre{
+    font-size: 10px;
 
+}
+
+#box{
+ width: 60%;
+ margin-top: 40px;
+    
+}
+#acordeon{
+    margin-top: 20px;
+
+}
+#reloj{
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+    border: 5px dashed #333;
+    width: 100%;
+    padding: 30px;
+    margin: 0 auto;
+}
+
+.contacto{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.inputContacto{
+    margin-bottom: 40px;
+    width: 100%;
+    text-align: center;
+    
+    border: 2px solid rgb(109, 101, 101);
+}
+.contactame{
+    width: 40%;
+    box-shadow: 0px 0px 8px 3px rebeccapurple ;
+    background-color:rgba(55, 29, 82, 0.466) ;
+}
+.LabelContacto{
+    display: flex;
+    justify-content: center;
+}
+.select{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 23px;
+}

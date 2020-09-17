@@ -139,8 +139,73 @@ $(document).ready(function () {
     });
  */
    
+   /* scroll con el boton ir arriba */
 
+
+   //se puede de esta forma: 
+
+
+  /*  $(".subir").click(function(){
+    $(this).scrollTop(0);
+   }) */
      
+
+   // o se puede de estar otra forma
+  
+   $(".subir").click(function(e){
+       e.preventDefault();
+
+       $("html, body").animate({
+           scrollTop: 0
+       }, 800);
+       return false;
+   })
  
+
+   //login falso
+    $("#login form").submit(function () { 
+   var formularioName= $("#formName").val();
+   localStorage.setItem("nombre", formularioName);   
+   });
+
+   var formularioName= localStorage.getItem("nombre");
+   if(formularioName != null && formularioName != "undefined"){
+       let nombre= $("#nombre");
+       nombre.html("<strong> Bienvenido," + formularioName + "</strong>")
+       nombre.append("<a href='#' id='logout'>Cerrar Sesión</a><br>")
+       $("#login").hide();
+
+       $("#logout").click(function(){
+           localStorage.removeItem("nombre")
+           //cuando cierre sesion quiero que me actualice pantalla
+           location.reload();
+       })
+   }
+   
+
+   //acordeon
+
+   if(window.location.href.indexOf("about")> -1){
+       $("#acordeon").accordion();
+      
+   }
+
+
+   //reloj
+
+   if(window.location.href.indexOf("reloj")> -1){
+    
+    //con el set interval hago que se actualice cada segundo.
+    setInterval(function(){
+        const reloj= moment().format("hh:mm:ss");
+        $("#reloj").html(reloj);
+        //con este mil, le digo que actualice cada 100 milisegundos, es decir, cada segundo
+    }, 1000);
+   
+}
+
+
+
+  
 
 });
