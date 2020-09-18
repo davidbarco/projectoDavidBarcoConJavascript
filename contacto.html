@@ -11,6 +11,9 @@
     <title>Projecto David Jquery -Javascript</title>
     <!-- jquery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <!-- jquery validator -->
+    <!-- Plugin validacion -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.3.26/jquery.form-validator.min.js"></script>
 
     <link rel="stylesheet" href="js/jquery-ui-1.12.1/jquery-ui.min.css">
     <link rel="stylesheet" href="js/jquery-ui-1.12.1/jquery-ui.structure.min.css">
@@ -72,34 +75,37 @@
         <!-- cargaremos Formulario de contacto -->
         
         <div class="contactame">
-            <h4>Contacto</h4>
+            <h4 class="contactos">Contacto</h4>
+            <div class="formularioInput">
             <form action="">
-            <hr class="form">
+            
       <label class="LabelContacto" for="name">Nombre</label> <br>
-      <input class="inputContacto" type="text" name="name">  <br>
+      <input class="inputContacto" type="text" name="name" data-validation="alphanumeric">  <br>
 
       <label class="LabelContacto" for="apellidos">Apellidos</label> <br>
-      <input class="inputContacto" type="text" name="apellidos">  <br>
+      <input class="inputContacto" type="text" name="apellidos" data-validation="alphanumeric">  <br>
       
       <label class="LabelContacto" for="email">Email</label>  <br>
-      <input class="inputContacto" type="email" name="email" id="">  <br>
+      <input class="inputContacto" type="email" name="email" id="" data-validation="email">  <br>
 
       <label class="LabelContacto" for="sexo">Sexo</label> <br>
-      <select class="select" name="sexo">
+      <select class="select" name="sexo" data-validation="required">
           <option value="Masculino">Hombre</option>
           <option value="Femenino">Mujer</option>
       </select> <br>
 
       <label class="LabelContacto" for="Fecha">Fecha De Nacimiento</label> <br>
-      <input class="inputContacto" type="date" name="fecha">  <br>
+      <input class="inputContacto" type="date" name="fecha" data-validation="date">  <br>
 
       <label class="LabelContacto" for="edad">Edad</label> <br>
-      <input class="inputContacto" type="number" name="edad">  <br>
+      <input class="inputContacto" type="number" name="edad" data-validation="number">  <br>
 
-
-      <input type="submit" class="inputContacto" value="Enviar" id="entrar">
+     <div class="Boton1">
+      <input type="submit" class=" Boton " value="Enviar"  >
+    </div>
 
             </form>
+          </div>
         </div>
     </div>
     

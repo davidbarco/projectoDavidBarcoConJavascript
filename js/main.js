@@ -203,6 +203,22 @@ $(document).ready(function () {
     }, 1000);
    
 }
+    
+
+//validacion formulario
+
+
+if(window.location.href.indexOf("contacto")> -1){
+  
+
+  $.validate({
+      lang: "es",
+      //posicion del mensaje
+      errorMessagePosition: "top",
+      scrollTopOnError: true
+  })
+
+}
 
 
 

@@ -292,16 +292,20 @@ footer{
     justify-content: center;
 }
 .inputContacto{
-    margin-bottom: 40px;
+    margin-bottom: 10px;
     width: 100%;
     text-align: center;
-    
-    border: 2px solid rgb(109, 101, 101);
+    cursor: pointer;
+    margin-top: 0;
+    border-radius: 2px;
+    border: 1px solid rgb(109, 101, 101);
 }
 .contactame{
-    width: 40%;
-    box-shadow: 0px 0px 8px 3px rebeccapurple ;
-    background-color:rgba(55, 29, 82, 0.466) ;
+    width: 55%;
+    margin-top: 10px;
+    border-radius: 2px;
+   
+    background-color:rgba(128, 128, 128, 0.308) ;
 }
 .LabelContacto{
     display: flex;
@@ -312,3 +316,26 @@ footer{
     text-align: center;
     margin-bottom: 23px;
 }
+
+
+.form-error {
+    font-size: 11px;
+    color: white;
+    background: red;
+    }
+    .has-validation-callback {
+        width: 58%;
+        }
+        .formularioInput {
+            display: flex;
+            justify-content: center;
+            }   
+.Boton{
+    margin-top: 20px;
+    cursor: pointer;
+} 
+.Boton1{
+    display: flex;
+justify-content: center;
+
+}               
